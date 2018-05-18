@@ -1,3 +1,15 @@
+## Compile on Ubuntu
+
+```
+sudo apt install libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev
+git clone https://github.com/TobiasKaller/xmr-stak.git
+mkdir xmr-stak/build
+cd xmr-stak/build
+cmake ..
+make install
+```
+
+
 ###### fireice-uk's and psychocrypt's
 # XMR-Stak - Monero/Aeon All-in-One Mining Software
 
